@@ -31,7 +31,7 @@ public class Main {
         frame.setBackground(Color.white);
         
         JLabel title=new JLabel("Tic Tac Toe");
-        title.setBackground(Color.white);
+        title.setBackground(Color.pink);
         title.setOpaque(true);
         title.setHorizontalAlignment(SwingConstants.CENTER);
         title.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
@@ -43,7 +43,7 @@ public class Main {
         panel.setBackground(Color.black);
         title2=new JLabel("Player 1, it's your turn");
         title2.setHorizontalAlignment(SwingConstants.CENTER);
-        title2.setBackground(Color.white);
+        title2.setBackground(Color.lightGray);
         title2.setOpaque(true);
         title2.setFont(new Font("Tahoma",Font.BOLD,25));
         title2.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
@@ -88,7 +88,7 @@ public class Main {
 							}
 							else if(!draw()) {
 								title2.setText("Draw!!");
-								title2.setForeground(Color.green);
+								title2.setForeground(Color.orange);
 								enabled=false;
 							}
 						}
